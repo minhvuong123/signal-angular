@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { InputSignalComponent } from './input-signal/input-signal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputSignalComponent
   ],
   imports: [
     BrowserModule

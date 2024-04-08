@@ -1,0 +1,4 @@
+<p>input-signal works!</p>
+{{course()}}
+<button (click)="change()">Change data</button>
+<input #form type="text" [value]="firstName()" (input)="firstName.set(form.value)">
